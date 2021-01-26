@@ -14,12 +14,14 @@
     width: 89% !important;
     height: 89% !important; }
   .hero-area .overlay :nth-child(1) {
+    background-image: url('../img/back.png');
     height: 294px !important; } }
 
 @media screen and (min-width: 1920px) {
   .hero-area .contents {
     padding: 280px 0 390px; }
   .hero-area .overlay :nth-child(1) {
+    background-image: url('../img/back.png');
     height: 250px; }
   .showcase-slider .owl-item img {
     width: 100%; }
