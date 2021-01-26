@@ -108,16 +108,17 @@
   });  
   console.log("icon",icon)
   };
-  var registration;
-  registration=registerServiceWorker()
+ 
 
 
 
   
   function notification(){
     askPermission()
-    registerServiceWorker()
+    var registration;
+  registration=registerServiceWorker()
     subscribeUserToPush()
+ 
   var title1 = document.getElementById("title").value;
   var body = document.getElementById("body").value;
   const title = title1;
