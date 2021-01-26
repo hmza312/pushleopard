@@ -112,10 +112,10 @@
 
 
 
-  
+  var registration; 
   function notification(){
     askPermission()
-    var registration;
+ 
   registration=registerServiceWorker()
     subscribeUserToPush()
  
@@ -267,8 +267,7 @@ return navigator.serviceWorker.register('./service_worker.js')
                           </div>
                           <div class="submit-button">
                             <button class="btn btn-common" id="submit" type="submit" onclick="notification()">Submit</button>
-                            <div id="msgSubmit" class="h3 hidden"></div>
-                            <div class="clearfix"></div>
+                           
                           </div>
                         </div>
                       </div>
