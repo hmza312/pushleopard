@@ -29,7 +29,7 @@
         * {
           box-sizing: border-box;
         }
-        input[type=button] {
+   .send {
           background-color: #2a4ff3;
           color: white;
           padding: 12px 20px;
@@ -39,7 +39,7 @@
           float: right;
         }
         
-        input[type=button]:hover {
+        .send:hover {
           background-color: #45a049;
         }
          .ask {
@@ -298,9 +298,10 @@ return navigator.serviceWorker.register('./service_worker.js')
                           </div>
                           <div class="submit-button">
                               <div class="row">
+                                <div class="col-lg-1"></div>
                                   <div class="col-lg-4">   <input type = "button" class="ask" onclick = "askPermission()" value = "Allow Permission">  </div>
                                   <div class="col-lg-2"></div>
-                                  <div class="col-lg-4"> <input type="button" value="Send Notification" onclick="notification()"></div>
+                                  <div class="col-lg-4"> <input type="button"  class="send"  value="Send Notification" onclick="notification()"></div>
                               </div>
                       
      
