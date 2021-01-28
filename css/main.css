@@ -456,7 +456,7 @@ button:focus {
 
 .navbar-expand-md .navbar-toggler:focus {
   outline: none; }
-
+  .mySlides {display:none;}
 /* ==========================================================================
    Hero Area
    ========================================================================== */
@@ -535,13 +535,13 @@ button:focus {
       /* left: 3%; */
      }
   .hero-area .contents {
-    padding: 220px 0 20px 0;
+    padding: 220px 0 50px 0;
     }
     .hero-area .contents h2 {
       color: rgb(0, 0, 0);
       font-size: 30px;
       font-weight: 600;
-      line-height: 60px;
+      line-height: 40px;
       margin-bottom: 20px; }
     .hero-area .contents p {
       color: rgb(0, 0, 0);
