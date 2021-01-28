@@ -577,6 +577,10 @@ button:focus {
      
       /* margin-left:10%;  */
     }
+    .iframe{
+      width:"554px" ;
+      height:"345px"
+    }
     @media screen and (min-width: 992px) {
       .hero-area .intro-img img {
         display: block;
@@ -589,9 +593,9 @@ button:focus {
         padding: 220px 0 50px 0;
         margin-left:-10%;
         }
-iframe{
-  width:"554" ;
-  height:"345"
+.iframe{
+  width:"554px" ;
+  height:"345px"
 }
     }
     @media screen and (max-width: 600px) {
@@ -606,9 +610,9 @@ iframe{
         padding: 220px 0 50px 0;
       
         }
-        iframe{
-          width:"454" ;
-          height:"345"
+        .iframe{
+          width:"454px" ;
+          height:"345px"
         }
       }
 
