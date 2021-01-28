@@ -568,13 +568,15 @@ button:focus {
         background: rgb(214, 34, 34);
         color: #20728D; }
   .hero-area .intro-img {
-    padding: 180px 0 0px;
+    padding: 180px 0 0px 0px;
  }
     .hero-area .intro-img img {
       display: block;
       height: auto;
       max-width: 100%;
-      margin-left:10%; }
+      padding-left: 50px;
+      /* margin-left:10%;  */
+    }
 
 /* ==========================================================================
    About 
