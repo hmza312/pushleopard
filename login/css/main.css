@@ -283,7 +283,7 @@ input100:focus{
 }
 .btn-show-face {
   font-size: 24px;
-  color: #ffffff;
+  color: #000000;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -311,7 +311,12 @@ input100:focus{
 .btn-show-pass.active {
   color: #57b846;
 }
-
+.login100-form-btn:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2); }
+.login100-form-btn1:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); }
+  .login100-form-btn2:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); }
 /*==================================================================
 [ Restyle Checkbox ]*/
 
@@ -422,7 +427,11 @@ text-align: center;
   border-radius: 30px;
 
 }
-
+#div1 {animation-timing-function: ease-out;}
+@keyframes mymove {
+  from {top: -300px;}
+  to {top: 0px;}
+}
 
 
 input:focus{

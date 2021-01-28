@@ -122,7 +122,7 @@
 					Log In to PushLeopard!
 					</span>
 
-				<form class="login100-form" action="push.html">
+				<div class="login100-form">
 					
 					<span class="txt1 p-b-11">
 						Email Address
@@ -162,9 +162,15 @@
 						<button class="login100-form-btn" id="myButton" >
 			Log in
     </button>
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "push.html";
+      };
+  </script>
+  
  
     
-				</form>
+</div>
 				
 
 			</div>
