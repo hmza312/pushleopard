@@ -462,6 +462,39 @@ button:focus {
    ========================================================================== */
 .hero-area {
   position: relative; }
+  .hero-arealogin .overlay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* top: -10px;
+    left: 0px; */
+    background-image: url('../img/login.png') ;
+    background-size: cover;
+  }
+  .hero-arealogin .overlay1 :nth-child(1) {
+    /* width: 33.33333%;
+    width: calc(100% / 2);
+    top: 0;
+    left: 16.66666%;
+    left: calc(calc(100% / 3) / 2);
+    right: auto; */
+    background-image: url('../img/back.png');
+    background-size: cover;
+    /* background: #bde5e8;
+    background: linear-gradient(95deg, #b3e1e2 40%, #bde5e8 100%); */
+    height: 200px; }
+  .hero-arealogin .overlay1 :nth-child(2) {
+    /* width: 33.33333%;
+    width: calc(100% /3);
+    bottom: 0; */
+    background-image: url('../img/back.png');
+    /* background: #bde5e8;
+    background: linear-gradient(95deg, #b3e1e2 40%, #bde5e8 100%); */
+    position: absolute;
+    height: 155px;
+    background-size: cover;
+    /* left: 3%; */
+   }
   .hero-area .overlay {
  
   
