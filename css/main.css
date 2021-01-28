@@ -589,7 +589,10 @@ button:focus {
         padding: 220px 0 50px 0;
         margin-left:-10%;
         }
-
+iframe{
+  width:"554" ;
+  height:"345"
+}
     }
     @media screen and (max-width: 600px) {
       .hero-area .intro-img img {
@@ -603,7 +606,12 @@ button:focus {
         padding: 220px 0 50px 0;
       
         }
-    }
+        iframe{
+          width:"454" ;
+          height:"345"
+        }
+      }
+
 /* ==========================================================================
    About 
    ========================================================================== */
