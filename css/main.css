@@ -580,7 +580,7 @@ button:focus {
     .iframe{
       width:"554px" ;
       height:"345px"
-    }
+    } 
     @media screen and (min-width: 992px) {
       .hero-area .intro-img img {
         display: block;
