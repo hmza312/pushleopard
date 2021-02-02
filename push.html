@@ -135,7 +135,7 @@
             <h2 class="head-title">Boost your Shopify Store’s Revenue with PushLeopard </h2>
             <p><a href="https://www.shopify.com/blog/abandoned-cart-emails"
                 style="color:#20728D;text-decoration: underline;">67.45% of the users</a> visiting any e-commerce
-              website abandoned their shopping cart before making final purchase. Let this higher converting marketing
+              website abandoned their shopping cart before making final purchase. <br/>Let this higher converting marketing
               tool send notifications smartly to generate your store’s revenue. </p>
             <div class="header-button">
               <a href="notification.html" rel="nofollow" target="_blank" class="btn btn-border-filled">SEE IT
@@ -147,7 +147,7 @@
         <div class="col-lg-1 col-md-0 col-xs-0"></div>
         <div class="col-lg-6 col-md-12 col-xs-12 p-0">
           <div class="intro-img" >
-            <img  src="dramybazz.gif" />
+            <img  src="dramybazz.gif" id="image"/>
             <script type="text/javascript">
               var ct = 0;
               var td = 0;
@@ -157,7 +157,15 @@
               function progress() {
               
                   if (ct <16 ) {
+                    if(imgs[ct]==="6012e649e3a60841201425.gif"){
+                      console.log("imahe")
+                      // document.getElementById("image").style.marginLeft="240px"
+                      document.images[0].src = imgs[ct];
+                    }
+                    else{
+                      console.log("imaghe")
                     document.images[0].src = imgs[ct];
+                    }
                     ct++;
                     setTimeout("progress()", 7000);
                   }
@@ -219,7 +227,7 @@
             <div>
             <p>FEATURES</p>
               <div class="desc-text">
-                <h2 class="section-title">Why You Need PushLeopard?</h2>   
+                <h2 class="section-title">Why Do You Need PushLeopard?</h2>   
               </div>
             </div>
           </div>
