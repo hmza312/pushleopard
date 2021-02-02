@@ -215,7 +215,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-color: #3c96ff;
   border-style: solid;
   background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -224,14 +224,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-apple i {
   background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent; }
 
 .btn-apple:hover,
 .btn-apple:active,
 .btn-apple:focus {
   background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
-  -webkit-background-clip: text !important;
+
   -webkit-text-fill-color: transparent !important; }
 
 button:focus {
@@ -991,9 +991,7 @@ button:focus {
 /* ==========================================================================
    Testimonial section
    ========================================================================== */
-#testimonial {
 
- }
   #testimonial .right-position {
     position: relative; }
   #testimonial .testimonial-area {
