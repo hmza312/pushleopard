@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body >
 
   <!-- Header Section Start -->
   <header id="home" class="hero-area">
@@ -392,10 +392,66 @@
                 </div>
                 <div class="price-value">
                   <span class="currency">$</span>
-                  <span class="amount">15</span>
+                  <span class="amount" ><script type="text/javascript">
+                    document.write(price)
+                  </script></span>
                   <span class="duration">/mo</span>
                 </div>
-                <ul class="pricing-content">
+                <h3>Impression</h3>
+              
+                <div id="input_div">
+                <input type="button" value="-" id="moins" onclick="minus()" style="    display: inline-block;
+                padding: 9px 15px;
+                background-color: #3898EC;
+                color: #fff;
+                border: 0;
+                line-height: inherit;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 0;">
+                <input type="text" size="30000" value="10000" id="count" style="    width: 105px;
+                margin-bottom: 0;
+                padding: 0;
+                border: 1px solid transparent;
+                background-color: transparent;
+                font-size: 24px;
+                line-height: 28px;
+                font-weight: 300;
+                text-align: center;">
+                <input type="button" value="+" id="plus" onclick="plus()" style="    display: inline-block;
+                padding: 9px 15px;
+                background-color: #3898EC;
+                color: #fff;
+                border: 0;
+                line-height: inherit;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 0;"></div>
+              
+            <script>
+                  
+              var count = 10000;
+              var value=1;
+              var price=15;
+              var countEl = document.getElementById("count");
+              function plus(){
+                value++;
+           price=price*value
+                  count=count+10000;
+                  countEl.value = count;
+              }
+              function minus(){
+                if (count > 10000) {
+                  value--;
+                  count=count-10000;
+                  price=price*value
+                  countEl.value = count;
+                } 
+                
+              }
+          
+                          </script>
+               <br/> <ul class="pricing-content">
                   <li>All Basic Features</li>
                   <li> Abandoned Cart Automation</li>
                   <li> Import and Extract Subscribers </li>
@@ -419,7 +475,7 @@
                   <span class="amount">110</span>
                   <span class="duration">/mo</span>
                 </div>
-                <h3>Impression</h3>
+              
                 <ul class="pricing-content">
                   <li> All Premium Package</li>
                   <li>Segmentation</li>
