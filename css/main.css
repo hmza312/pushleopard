@@ -1710,7 +1710,7 @@ button:focus {
         z-index: -1;
     }
     .pricingTable:after{
-        background-color: #FE5F85;
+        background-color: #F4F5F9;
         height: 300px;
         width: 300px;
         top: auto;
@@ -1815,20 +1815,20 @@ button:focus {
         background-color: transparent;
         border-color: #FE5F85;
     }
-    .pricingTable.blue:after{ background-color: #00CCFF; }
-    .pricingTable.blue .price-value{ background-color: #00CCFF; }
-    .pricingTable.blue .pricing-content li:before{ background-color: #00CCFF; }
-    .pricingTable.blue .pricingTable-signup a{ background-color: #00CCFF; }
-    .pricingTable.blue .pricingTable-signup a:hover{
+    .blue:after{ background-color: #00CCFF; }
+  .blue .price-value{ background-color: #00CCFF; }
+  .blue .pricing-content li:before{ background-color: #00CCFF; }
+.blue .pricingTable-signup a{ background-color: #00CCFF; }
+ .blue .pricingTable-signup a:hover{
         color: #00CCFF;
         background-color: transparent;
         border-color: #00CCFF;
     }
-    .pricingTable.green:after{ background-color: green; }
-    .pricingTable.green .price-value{ background-color: green; }
-    .pricingTable.green .pricing-content li:before{ background-color: green; }
-    .pricingTable.green .pricingTable-signup a{ background-color: green; }
-    .pricingTable.green .pricingTable-signup a:hover{
+   .green:after{ background-color: green; }
+   .green .price-value{ background-color: green; }
+    .green .pricing-content li:before{ background-color: green; }
+    .green .pricingTable-signup a{ background-color: green; }
+   .green .pricingTable-signup a:hover{
         color: green;
         background-color: transparent;
         border-color: green;
