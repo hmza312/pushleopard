@@ -1825,7 +1825,7 @@ button:focus {
         border-color: #00CCFF;
     }
     .pricingTable.green:after{ background-color: green; }
-    .pricingTable.green .price-value{ background-color: pricingTable-signupgreen; }
+    .pricingTable.green .price-value{ background-color: green; }
     .pricingTable.green .pricing-content li:before{ background-color: green; }
     .pricingTable.green .pricingTable-signup a{ background-color: green; }
     .pricingTable.green .pricingTable-signup a:hover{
