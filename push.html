@@ -390,11 +390,10 @@
                 <div class="pricingTable-header">
                   <h3 class="title">Standard</h3>
                 </div>
+              
                 <div class="price-value">
                   <span class="currency">$</span>
-                  <span class="amount" ><script type="text/javascript">
-                    document.write(price)
-                  </script></span>
+                  <span class="amount" id="p1"></span>
                   <span class="duration">/mo</span>
                 </div>
                 <h3>Impression</h3>
@@ -433,23 +432,26 @@
               var count = 10000;
               var value=1;
               var price=15;
+             
               var countEl = document.getElementById("count");
               function plus(){
                 value++;
-           price=price*value
+           price=price+15
                   count=count+10000;
                   countEl.value = count;
+                  document.getElementById("p1").innerHTML =price;
               }
               function minus(){
                 if (count > 10000) {
                   value--;
                   count=count-10000;
-                  price=price*value
+                  price=price-15
                   countEl.value = count;
+                    document.getElementById("p1").innerHTML =price;
                 } 
                 
               }
-          
+              document.getElementById("p1").innerHTML =price;
                           </script>
                <br/> <ul class="pricing-content">
                   <li>All Basic Features</li>
