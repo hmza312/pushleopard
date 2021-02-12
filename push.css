@@ -12,28 +12,22 @@ font-weight: 300;
 text-align: center;}
 .in:focus{
     border: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
   }
   .inb{
   display: inline-block;
    padding: 6px 12px;
-    background-color:lightgray;
+    background-color:white;
     color: #000;
       border: white;  
                 /* 768088 */
     line-height: inherit;
               
   cursor: pointer;
-   border-radius: 50%;}
+}
    .inb:focus{
     border: none;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
   }
   
 .in:focus::-webkit-input-placeholder {border: white; }
