@@ -1959,3 +1959,15 @@ color:black;
     img {
       width: 100%;
     }
+    .columnimage {
+      float: left;
+      width: 33.33%;
+padding-left: 15%;
+    }
+    
+    /* Clearfix (clear floats) */
+    .rowimage::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
